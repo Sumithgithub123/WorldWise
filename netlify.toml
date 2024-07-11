@@ -1,3 +1,9 @@
 [build]
-  command = "npm run build && npm run server"
+  command = "npm run build && npm run additional-command"
   publish = "public"
+
+[build.environment]
+  NODE_VERSION = "14"
+
+[context.production.environment]
+  NODE_ENV = "production"
