@@ -1,4 +1,4 @@
-import styles from "./Appnav.module.css";
+import styles from "./AppNav.module.css";
 import { NavLink } from "react-router-dom";
 
 function Appnav() {
