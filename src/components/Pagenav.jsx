@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import styles from "./Pagenav.module.css";
+import styles from "./PageNav.module.css";
 import Logo from "./Logo";
 
 function Pagenav() {
@@ -14,7 +14,9 @@ function Pagenav() {
           <NavLink to={"/pricing"}>Pricing</NavLink>
         </li>
         <li>
-          <NavLink className={styles.ctaLink} to={"/login"}>Login</NavLink>
+          <NavLink className={styles.ctaLink} to={"/login"}>
+            Login
+          </NavLink>
           {/* <Link to={"/login"}>Login</Link> */}
         </li>
       </ul>
