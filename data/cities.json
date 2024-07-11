@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "6eb7",
+      "cityName": "Muvattupuzha",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-06-27T12:46:37.292Z",
+      "notes": "nice",
+      "position": {
+        "lat": "9.898486154874261",
+        "lng": "76.43737792968751"
+      }
+    },
+    {
+      "id": "64e9",
+      "cityName": "Borriol",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-06-27T16:29:38.860Z",
+      "notes": "vg",
+      "position": {
+        "lat": "40.03968860221624",
+        "lng": "-0.092010498046875"
+      }
+    }
+  ]
+}
